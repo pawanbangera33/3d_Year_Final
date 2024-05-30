@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" modified="2024-04-28T13:29:39.988Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="N3E0gp-3wZ-bxgL1_97O" version="24.3.1" type="device">
+  <diagram name="Page-1" id="GHvi_lTp4iRKk6bwJsbu">
+    <mxGraphModel dx="1615" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-1" target="UdWVbbAce_5chNDZ5ylh-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-3" target="UdWVbbAce_5chNDZ5ylh-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-3" value="Load Amazon review dataset" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-4" target="UdWVbbAce_5chNDZ5ylh-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-4" value="Clean data (remove NaN values)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-5" target="UdWVbbAce_5chNDZ5ylh-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-5" value="Preprocess reviews (remove stopwords)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-6" target="UdWVbbAce_5chNDZ5ylh-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-6" value="Visualize data (sentiment distribution, word cloud)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-7" target="UdWVbbAce_5chNDZ5ylh-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-7" value="Vectorize reviews using TF-IDF" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="540" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-14" target="UdWVbbAce_5chNDZ5ylh-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-14" value="Split data into training and testing sets" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="640" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-16" target="UdWVbbAce_5chNDZ5ylh-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-16" value="Train Logistic Regression model" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="740" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-19" target="UdWVbbAce_5chNDZ5ylh-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-19" value="Evaluate model (calculate accuracy)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-21" target="UdWVbbAce_5chNDZ5ylh-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-21" value="Save trained model and TF-IDF vectorizer" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="940" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-22" target="UdWVbbAce_5chNDZ5ylh-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-22" value="Input review for sentiment analysis" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="1040" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-25" target="UdWVbbAce_5chNDZ5ylh-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-25" value="Preprocess input review" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="1140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-26" target="UdWVbbAce_5chNDZ5ylh-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-26" value="Vectorize input review using saved TF-IDF vectorizer" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="1240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;textShadow=0;" parent="1" source="UdWVbbAce_5chNDZ5ylh-27" target="UdWVbbAce_5chNDZ5ylh-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-27" value="Predict sentiment using trained model" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="1340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkqPw8OT8G82GqSHpe-W-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;textShadow=0;" edge="1" parent="1" source="UdWVbbAce_5chNDZ5ylh-28" target="UdWVbbAce_5chNDZ5ylh-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-28" value="Display sentiment result (positive/negative)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="1440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdWVbbAce_5chNDZ5ylh-35" value="End" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontStyle=1;flipV=0;flipH=1;textShadow=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="1540" width="160" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
